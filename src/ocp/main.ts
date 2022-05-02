@@ -7,7 +7,7 @@ import { Order } from './classes/order';
 import { Persistency } from './services/persistency';
 import { Product } from './classes/product';
 import { ShoppingCart } from './classes/shopping-cart';
-import { NoDiscount } from './classes/discount';
+import { NoDiscount /* , TemPercentDiscount */ } from './classes/discount';
 
 // const temPercentDiscount = new TemPercentDiscount();
 const noDiscount = new NoDiscount();
